@@ -14,6 +14,7 @@ class MyDocument extends Document {
       <Html lang={BLOG.LANG} className='test'>
         <Head>
           <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-touch-fullscreen" content="yes" /> 
           <link rel='icon' href='/favicon.ico' />
           <link rel='icon' href='/favicon.svg' type='image/svg+xml' />
           <CommonScript />
